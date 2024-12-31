@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown select {
+    padding: 12px;           
+    font-size: 18px;            
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown select:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.dropdown button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    background-color: #45a049;
+}
+
+.instructions {
+    font-size: 14px;
+}
+
+.wrapper{
+    width:400px; /* specify your width here */
+    text-align: left;
+    margin:0 auto;
+    }
+
+.header img {
+        width: 80%;        /* Make the image take the full width of the page */
+        max-height: 200px;  /* Set a max height to keep it reasonable */
+        object-fit: cover;  /* Ensures the image fills the space without stretching */
+        margin-bottom: 10px; /* Add some space below the image */
+}

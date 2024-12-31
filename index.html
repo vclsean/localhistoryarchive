@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Link Menu</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <center>
+        <div class="header">
+            <img src="header-image.png" alt="Header Image">
+        </div>
+        <div class="wrapper"><div class="instructions">
+            <h1>Instructions:</h1>
+           1.) Using the dropdown menu below, select your library and then press the "Go" button <br /><br />
+           2.) A new browser tab will open and you will be prompted to enter your library barcode number to sign in to the ProQuest database <br /><br />
+           3.) Close the database browser tab after signing in and return to this tab, which will automatically be redirected to the newspaper archive <br /><br />
+           4.) Browse through the archive by subject heading and you should be able to access all articles without having to sign back into the database during the session <br /><br />
+        </div></div>
+        <div class="dropdown">
+        <select id="linkSelect">
+            <option value="">Select your library to sign in to the database</option>
+            <option value="https://search.proquest.com/?accountid=46619">Finkelstein (Spring Valley)</option>
+            <option value="https://www.proquest.com/pubset/1/?accountid=28176">New City</option>
+            <option value="https://www.proquest.com/barcode?accountid=35841&groupid=68997">Nyack</option>
+            <option value="https://www.proquest.com/hnpnewyorkcollection1?accountid=31707">Valley Cottage</option>
+        </select>
+
+        <button onclick="openLink()">Go</button>
+    </div></center>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
