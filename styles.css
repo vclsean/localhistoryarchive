@@ -65,7 +65,7 @@ body {
             text-align: center;
         }
         .dropdown button {
-            margin-top: 12px;
+            margin-top: 5px;
             font-size: 18px;
             background-color: #4CAF50;
             color: white;
@@ -73,3 +73,4 @@ body {
             border-radius: 5px;
             cursor: pointer;
         }
+ }
