@@ -1,3 +1,11 @@
+function redirectFAQs() {
+    // Check if the user is on mobile (screen width less than or equal to 768px)
+    if (window.innerWidth <= 768) {
+        window.location.href = 'https://sites.google.com/view/firstsixmonthsarchive-faqs/mobile';  // URL for mobile users
+    } else {
+        window.location.href = 'https://sites.google.com/view/firstsixmonthsarchive-faqs/';  // URL for desktop users
+    }
+}
 function openLink() {
     const selectedLink = document.getElementById("linkSelect").value;
 
