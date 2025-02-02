@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VCL Local History Archive</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,7 +15,7 @@
             <img src="header-image.png" alt="Header Image">
         </div>
         <div class="wrapper"><div class="instructions">
-            <h1>Instructions:</h1>
+            <h1>How to Use:</h1>
            1.) Using the dropdown menu below, select your library and then press the "Go" button <br /><br />
            2.) A new browser tab will open and you will be prompted to enter your library barcode number to sign in to the ProQuest database <br /><br />
            3.) After signing in to the database, close that browser tab and return to this tab, which will automatically be redirected to the local history archive <br /><br />
@@ -23,13 +24,16 @@
         <div class="dropdown">
         <select id="linkSelect">
             <option value="">Select your library to sign in to the database</option>
-            <option value="https://search.proquest.com/?accountid=46619">Finkelstein (Spring Valley)</option>
-            <option value="https://www.proquest.com/pubset/1/?accountid=28176">New City</option>
-            <option value="https://www.proquest.com/barcode?accountid=35841&groupid=68997">Nyack</option>
-            <option value="https://www.proquest.com/hnpnewyorkcollection1?accountid=31707">Valley Cottage</option>
+            <option value="https://search.proquest.com/?accountid=46619">Finkelstein Memorial Library (Spring Valley)</option>
+            <option value="https://www.proquest.com/pubset/1/?accountid=28176">New City Library</option>
+            <option value="https://i.ezproxy.nypl.org/login?url=https://www.proquest.com/?accountid=35635&selectids=1009294,1009281,1009315,1009278,1009307,1009314,1009308,1009309,1009316,1009279,1009304,1009302,1009697,1009318,1009301,1009300,1009297,1009696,1009296,1009310,1009305,1009303,1009268,1009280,1009311,1009298,1009277,1009313,1009312,1009322,1009320,1009323,1009321,1009324,1009295,1009317">New York Public Library (NYPL)</option>
+            <option value="https://www.proquest.com/barcode?accountid=35841&groupid=68997">Nyack Library</option>
+            <option value="https://www.proquest.com/hnpnewyorkcollection1?accountid=31707">Valley Cottage Library</option>
         </select>
 
-        <button onclick="openLink()">Go</button>
+        <button onclick="openLink()">Go</button> <br />
+        <button onclick="window.location.href='https://raindrop.io/valleycottagelibrary';">In-Library Usage</button>
+        <button onclick="redirectFAQs();">FAQs</button>
     </div></center>
 
     <!-- Link to external JavaScript file -->
