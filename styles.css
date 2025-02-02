@@ -60,17 +60,3 @@ body {
         object-fit: cover;  /* Ensures the image fills the space without stretching */
         margin-bottom: 10px; /* Add some space below the image */
 }
- @media (max-width: 768px) {
-        h1 {
-            text-align: center;
-        }
-        .dropdown button {
-            margin-top: 5px;
-            font-size: 18px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
- }
