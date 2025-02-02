@@ -14,10 +14,6 @@ body {
     display: inline-block;
 }
 
-.h1 {
-    text-align: center;
-}
-
 .dropdown select {
     padding: 12px;           
     font-size: 18px;            
