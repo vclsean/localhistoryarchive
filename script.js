@@ -13,8 +13,8 @@ function openLink() {
         // Open the selected link in a new tab
         window.open(selectedLink, '_blank');
 
-        // Change the current tab to google.com
-        window.location.href = 'https://raindrop.io/valleycottagelibrary';
+        // Change the current tab to raindrop
+        window.location.href = 'rocklandlocalhistoryarchive.raindrop.page';
     } else {
         alert("Please select a link first.");
     }
