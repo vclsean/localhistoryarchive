@@ -14,7 +14,7 @@ function openLink() {
         window.open(selectedLink, '_blank');
 
         // Change the current tab to raindrop
-        window.location.href = 'rocklandlocalhistoryarchive.raindrop.page';
+        window.location.href = 'https://rocklandlocalhistoryarchive.raindrop.page';
     } else {
         alert("Please select a link first.");
     }
